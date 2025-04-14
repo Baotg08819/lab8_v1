@@ -1,0 +1,5 @@
+<input type="file" (change)="onFileSelected($event)" />
+<img *ngIf="imageUrl" [src]="imageUrl" alt="Uploaded image" width="300" />
+
+
+<router-outlet />
